@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex; 
+  flex-wrap: wrap;
+  padding: 15px;
+  width: 320px;
+  height: 310px; 
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  margin: auto; 
+}
+
+div {
+  margin: auto; 
+  font-size: 100px;
+}
+
+
+.square {
+  box-sizing: content-box;
+  /* padding: 50px;  */
+  background-color: grey; 
+  margin: 3px;
+  width: 100px; 
+  height: 100px; 
+  text-align: center;
+  align-content: center;
+}
+
+.square:hover {
+  background-color: yellow;
+}
+
+li {
+  list-style-type: none;
+  font-size: 100px;
+  background-color: white;
+}
+
+.x { 
+  background-color: green;
+}
